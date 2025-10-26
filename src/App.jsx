@@ -6,6 +6,7 @@ import feature from './assets/img/feature.jpg'
 import team1 from './assets/img/team-1.jpg'
 import team2 from './assets/img/team-2.jpg'
 import team3 from './assets/img/team-3.jpg'
+import logo from './assets/img/logo.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,9 +39,10 @@ function App() {
       {/* Main landing start here */}
       <div className="container-fluid position-relative p-0">
         <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-          <a href="index.html" className="navbar-brand p-0">
+          {/* <a href="index.html" className="navbar-brand p-0">
             <h1 className="m-0"><i className="fa fa-user-tie me-2"></i>Startup</h1>
-          </a>
+          </a> */}
+          <img src={logo} alt='image' style={{width: '100px'}}/>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="fa fa-bars"></span>
           </button>
