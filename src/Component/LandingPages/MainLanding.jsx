@@ -22,25 +22,25 @@ function MainLanding(props) {
                         <div className="navbar-nav ms-auto py-0">
                             <a className="nav-item nav-link active" onClick={() => navigate('/companyportfolio')}>Home</a>
                             <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/about')}>About</a>
-                            <a href="service.html" className="nav-item nav-link">Services</a>
-                            <div className="nav-item dropdown">
-                                <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/Sice')}>Services</a>
+                            {/* <div className="nav-item dropdown">erv
+                                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div className="dropdown-menu m-0">
-                                    <a href="blog.html" className="dropdown-item">Blog Grid</a>
-                                    <a href="detail.html" className="dropdown-item">Blog Detail</a>
+                                    <a className="dropdown-item">Blog Grid</a>
+                                    <a className="dropdown-item">Blog Detail</a>
                                 </div>
                             </div>
                             <div className="nav-item dropdown">
-                                <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div className="dropdown-menu m-0">
-                                    <a href="price.html" className="dropdown-item">Pricing Plan</a>
-                                    <a href="feature.html" className="dropdown-item">Our features</a>
-                                    <a href="team.html" className="dropdown-item">Team Members</a>
-                                    <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                    <a href="quote.html" className="dropdown-item">Free Quote</a>
+                                    <a className="dropdown-item">Pricing Plan</a>
+                                    <a className="dropdown-item">Our features</a>
+                                    <a className="dropdown-item">Team Members</a>
+                                    <a className="dropdown-item">Testimonial</a>
+                                    <a className="dropdown-item">Free Quote</a>
                                 </div>
-                            </div>
-                            <a href="contact.html" className="nav-item nav-link">Contact</a>
+                            </div> */}
+                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
                         </div>
                         <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
                     </div>

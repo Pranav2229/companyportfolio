@@ -1,19 +1,18 @@
 import React from 'react'
-import logo from '../../assets/img/logo.png'
 import { useNavigate } from 'react-router-dom'
-import AboutUs from '../LandingPages/AboutUs'
-import TeamMates from '../LandingPages/TeamMates'
+import logo from '../../assets/img/logo.png'
 import Header from '../Header/Header'
+import Service from '../LandingPages/Service'
 import Footer from '../Footer/Footer'
-
-function About(props) {
+function ServiceDetail(props) {
     const navigate = useNavigate()
+
     return (
         <>
             <Header />
             <div class="container-fluid position-relative p-0">
                 <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-                    {/* <a href="index.html" class="navbar-brand p-0">
+                    {/* <a class="navbar-brand p-0">
                         <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Startup</h1>
                     </a> */}
                     <img src={logo} alt='image' style={{ width: '100px' }} />
@@ -23,8 +22,8 @@ function About(props) {
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto py-0">
                             <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio')}>Home</a>
-                            <a class="nav-item nav-link active" onClick={() => navigate('/companyportfolio/about')}>About</a>
-                            <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio/Service')}>Services</a>
+                            <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio/about')}>About</a>
+                            <a class="nav-item nav-link active" onClick={() => navigate('/companyportfolio/Service')}>Services</a>
                             {/* <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu m-0">
@@ -52,10 +51,10 @@ function About(props) {
                 <div class="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '90px' }}>
                     <div class="row py-5">
                         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                            <h1 class="display-4 text-white animated zoomIn">About Us</h1>
+                            <h1 class="display-4 text-white animated zoomIn">Services</h1>
                             <a class="h5 text-white">Home</a>
                             <i class="far fa-circle text-white px-2"></i>
-                            <a class="h5 text-white">About</a>
+                            <a class="h5 text-white">Services</a>
                         </div>
                     </div>
                 </div>
@@ -75,11 +74,10 @@ function About(props) {
                     </div>
                 </div>
             </div>
-            <AboutUs />
-            <TeamMates />
+            <Service />
             <Footer />
         </>
     )
 }
 
-export default About
+export default ServiceDetail

@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import Landing from './Component/LandingPages/Landing/Landing'
 import About from './Component/AboutPage/About';
-
+import ServiceDetail from './Component/ServicePage/ServiceDetail';
+import Contact from './Component/Contact/Contact';
 function App() {
 
   return (
@@ -14,9 +15,9 @@ function App() {
           {/* Public site routes */}
           <Route path="/companyportfolio/" element={<Landing />} />
           <Route path="/companyportfolio/about" element={<About />} />
-          {/* <Route path="/shop/:productId" element={<ProductDetails />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/companyportfolio/Service" element={<ServiceDetail />} />
+          <Route path="/companyportfolio/contact" element={<Contact />} />
+          {/* <Route path="/checkout" element={<Checkout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}
 
