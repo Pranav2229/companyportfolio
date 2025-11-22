@@ -22,7 +22,7 @@ function MainLanding(props) {
                         <div className="navbar-nav ms-auto py-0">
                             <a className="nav-item nav-link active" onClick={() => navigate('/companyportfolio')}>Home</a>
                             <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/about')}>About</a>
-                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/Sice')}>Services</a>
+                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/Service')}>Services</a>
                             {/* <div className="nav-item dropdown">erv
                                 <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div className="dropdown-menu m-0">
