@@ -19,7 +19,7 @@ function Landing(props) {
             <Features />
             <Service />
             <Quote />
-            <TeamMates />
+            {/* <TeamMates /> */}
             <Footer />
             <a class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
         </>

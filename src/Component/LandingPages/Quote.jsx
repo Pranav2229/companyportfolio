@@ -20,14 +20,18 @@ function Quote(props) {
                                     <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
                                 </div>
                             </div>
-                            <p class="mb-4">Whether you’d like a free quote or just want to chat, reach us anytime. Call us at +91 XXXX XXX XXX, or drop your message in the form below — we promise to respond within 24 hours. Round-the-clock phone support ensures we’re always available.</p>
+                            <p class="mb-4">Let’s bring your project to life!
+                                Tell us what you’re looking for, and we’ll prepare a custom quote that fits your goals and budget.
+                                    <br/>
+                                    <br/>
+                                No obligation. Fast response. Expert guidance.</p>
                             <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                                 <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{ width: '60px', height: '60px' }}>
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">Call to ask any question</h5>
-                                    <h4 class="text-primary mb-0">+012 345 6789</h4>
+                                    <h4 class="text-primary mb-0">+91 8421052339</h4>
                                 </div>
                             </div>
                         </div>

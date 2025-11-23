@@ -14,7 +14,7 @@ function MainLanding(props) {
                     {/* <a href="index.html" className="navbar-brand p-0">
             <h1 className="m-0"><i className="fa fa-user-tie me-2"></i>Startup</h1>
           </a> */}
-                    <img src={logo} alt='image' style={{ width: '100px' }} />
+                    <img src={logo} alt='image' style={{ width: '131px' }} />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="fa fa-bars"></span>
                     </button>
@@ -51,9 +51,9 @@ function MainLanding(props) {
                         <div className="carousel-item active">
                             <img className="w-100" src={carousel1} alt="Image" style={{ height: '770px' }} />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{ maxWidth: '900px' }}>
-                                    <h5 className="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
-                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                                <div className="p-3">
+                                    <h5 className="text-white text-uppercase mb-3 animated slideInDown">Tech You Can Trust</h5>
+                                    <h3 className="display-1 text-white mb-md-4 animated zoomIn">Empowering Innovation & Delivering Excellence</h3>
                                     <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                                     {/* <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                   <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> */}
@@ -61,11 +61,11 @@ function MainLanding(props) {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img className="w-100" src={carousel2} alt="Image"  style={{ height: '770px' }}/>
+                            <img className="w-100" src={carousel2} alt="Image" style={{ height: '770px' }} />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{ maxWidth: '900px' }}>
-                                    <h5 className="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
-                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                                    <h5 className="text-white text-uppercase mb-3 animated slideInDown">Reliable Tech & Remarkable Solutions</h5>
+                                    <h3 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h3>
                                     <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                                     {/* <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                   <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> */}

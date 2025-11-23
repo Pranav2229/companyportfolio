@@ -8,9 +8,9 @@ function Header(props) {
                 <div className="row gx-0">
                     <div className="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                         <div className="d-inline-flex align-items-center" style={{ height: '45px' }}>
-                            <small className="me-3 text-light"><i className="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                            <small className="me-3 text-light"><i className="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                            <small className="text-light"><i className="fa fa-envelope-open me-2"></i>info@example.com</small>
+                            <small className="me-3 text-light"><i className="fa fa-map-marker-alt me-2"></i>Pune , India</small>
+                            <small className="me-3 text-light"><i className="fa fa-phone-alt me-2"></i>+91 8421052339</small>
+                            <small className="text-light"><i className="fa fa-envelope-open me-2"></i>info@swamitech.in</small>
                         </div>
                     </div>
                     <div className="col-lg-4 text-center text-lg-end">

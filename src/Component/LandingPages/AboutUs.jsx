@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import about from '../../assets/img/about.jpg'
 
 function AboutUs(props) {
+    useEffect(() => {
+        window.scroll(0, 0)
+    })
     return (
         <>
             {/* About us start here  */}
@@ -13,11 +16,11 @@ function AboutUs(props) {
                                 <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
                                 <h1 class="mb-0">The Best IT Solution With 3 Years of Experience</h1>
                             </div>
-                            <p class="mb-4">Welcome to Swami Infotech Solutions, a next-generation digital solutions startup transforming ideas into powerful online experiences.
+                            <p class="mb-4">Welcome to Swami Tech Solutions, a next-generation digital solutions startup transforming ideas into powerful online experiences.
 
                                 We specialize in website development, product development, and mobile application development, helping businesses innovate, scale, and thrive in the digital era. Our mission is to empower startups and enterprises with cutting-edge technology and creative solutions that deliver real impact.
 
-                                At Swami Infotech Solutions, we believe every digital product should be intuitive, scalable, and built for the future. Our multidisciplinary team of developers, designers, and strategists works closely with clients to craft seamless digital products — from concept to launch and beyond.
+                                At Swami Tech Solutions, we believe every digital product should be intuitive, scalable, and built for the future. Our multidisciplinary team of developers, designers, and strategists works closely with clients to craft seamless digital products — from concept to launch and beyond.
 
                                 Our approach is simple:
 
@@ -41,7 +44,7 @@ function AboutUs(props) {
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">Call to ask any question</h5>
-                                    <h4 class="text-primary mb-0">+012 345 6789</h4>
+                                    <h4 class="text-primary mb-0">+91 8421052339</h4>
                                 </div>
                             </div>
                             {/* <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a> */}

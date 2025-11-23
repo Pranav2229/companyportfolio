@@ -16,7 +16,7 @@ function About(props) {
                     {/* <a href="index.html" class="navbar-brand p-0">
                         <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Startup</h1>
                     </a> */}
-                    <img src={logo} alt='image' style={{ width: '100px' }} />
+                    <img src={logo} alt='image' style={{ width: '131px' }} />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars"></span>
                     </button>
@@ -44,7 +44,7 @@ function About(props) {
                             </div> */}
                             <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
                         </div>
-                        <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                        {/* <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> */}
                         {/* <a class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> */}
                     </div>
                 </nav>
@@ -53,9 +53,9 @@ function About(props) {
                     <div class="row py-5">
                         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
                             <h1 class="display-4 text-white animated zoomIn">About Us</h1>
-                            <a class="h5 text-white">Home</a>
-                            <i class="far fa-circle text-white px-2"></i>
-                            <a class="h5 text-white">About</a>
+                            <a class="h5 text-white">Swami Tech Solutions</a>
+                            {/* <i class="far fa-circle text-white px-2"></i>
+                            <a class="h5 text-white">About</a> */}
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function About(props) {
                 </div>
             </div>
             <AboutUs />
-            <TeamMates />
+            {/* <TeamMates /> */}
             <Footer />
         </>
     )

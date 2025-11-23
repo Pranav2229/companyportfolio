@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../../assets/img/logo.png'
 import { useNavigate } from 'react-router-dom'
 import Header from '../Header/Header'
@@ -6,7 +6,9 @@ import Footer from '../Footer/Footer'
 
 function Contact(props) {
     const navigate = useNavigate()
-
+    useEffect(() => {
+        window.scroll(0, 0)
+    })
     return (
         <>
             <Header />
@@ -15,7 +17,7 @@ function Contact(props) {
                     {/* <a class="navbar-brand p-0">
                         <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Startup</h1>
                     </a> */}
-                    <img src={logo} alt='image' style={{ width: '100px' }} />
+                    <img src={logo} alt='image' style={{ width: '131px' }} />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars"></span>
                     </button>
@@ -43,7 +45,7 @@ function Contact(props) {
                             </div> */}
                             <a class="nav-item nav-link active" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
                         </div>
-                        <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                        {/* <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> */}
                         {/* <a class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> */}
                     </div>
                 </nav>
@@ -52,9 +54,9 @@ function Contact(props) {
                     <div class="row py-5">
                         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
                             <h1 class="display-4 text-white animated zoomIn">Contact Us</h1>
-                            <a class="h5 text-white">Home</a>
-                            <i class="far fa-circle text-white px-2"></i>
-                            <a class="h5 text-white">Contact</a>
+                            <a class="h5 text-white">Swami Tech Solutions</a>
+                            {/* <i class="far fa-circle text-white px-2"></i>
+                            <a class="h5 text-white">Contact</a> */}
                         </div>
                     </div>
                 </div>
@@ -73,7 +75,7 @@ function Contact(props) {
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">Call to ask any question</h5>
-                                    <h4 class="text-primary mb-0">+012 345 6789</h4>
+                                    <h4 class="text-primary mb-0">+91 8421052339</h4>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +86,7 @@ function Contact(props) {
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">Email to get free quote</h5>
-                                    <h4 class="text-primary mb-0">info@example.com</h4>
+                                    <h4 class="text-primary mb-0">info@swamitech.in</h4>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +97,7 @@ function Contact(props) {
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">Visit our office</h5>
-                                    <h4 class="text-primary mb-0">123 Street, NY, USA</h4>
+                                    <h4 class="text-primary mb-0">Pune , India</h4>
                                 </div>
                             </div>
                         </div>
@@ -123,10 +125,13 @@ function Contact(props) {
                             </form>
                         </div>
                         <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
-                            <iframe class="position-relative rounded w-100 h-100"
+                            {/* <iframe class="position-relative rounded w-100 h-100"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
                                 frameborder="0" style={{ minHeight: '350px', border: '0' }} allowfullscreen="" aria-hidden="false"
-                                tabindex="0"></iframe>
+                                tabindex="0"></iframe> */}
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.7090650876!2d73.69815015734059!3d18.524870614044367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1763887751950!5m2!1sen!2sin"
+                                width="600" height="350" style={{ minHeight: '350px', border: '0' }} allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

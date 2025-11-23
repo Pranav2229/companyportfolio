@@ -13,8 +13,8 @@ function Counter(props) {
                                     <i className="fa fa-users text-primary"></i>
                                 </div>
                                 <div className="ps-4">
-                                    <h5 className="text-white mb-0">Happy Clients</h5>
-                                    <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1>
+                                    <h5 className="text-white mb-0">Your Needs, Our Priority</h5>
+                                    {/* <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1> */}
                                 </div>
                             </div>
                         </div>
@@ -24,8 +24,8 @@ function Counter(props) {
                                     <i className="fa fa-check text-white"></i>
                                 </div>
                                 <div className="ps-4">
-                                    <h5 className="text-primary mb-0">Projects Done</h5>
-                                    <h1 className="mb-0" data-toggle="counter-up">12345</h1>
+                                    <h5 className="text-primary mb-0">Seamless Solutions</h5>
+                                    {/* <h1 className="mb-0" data-toggle="counter-up">12345</h1> */}
                                 </div>
                             </div>
                         </div>
@@ -35,8 +35,8 @@ function Counter(props) {
                                     <i className="fa fa-award text-primary"></i>
                                 </div>
                                 <div className="ps-4">
-                                    <h5 className="text-white mb-0">Win Awards</h5>
-                                    <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1>
+                                    <h5 className="text-white mb-0">Digital-Driven Services</h5>
+                                    {/* <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1> */}
                                 </div>
                             </div>
                         </div>
