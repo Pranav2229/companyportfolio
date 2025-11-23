@@ -42,7 +42,7 @@ function MainLanding(props) {
                             </div> */}
                             <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
                         </div>
-                        <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
+                        {/* <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button> */}
                     </div>
                 </nav>
 
