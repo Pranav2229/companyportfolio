@@ -13,7 +13,7 @@ function App() {
         <Routes>
 
           {/* Public site routes */}
-          <Route path="/companyportfolio/" element={<Landing />} />
+          <Route path="/companyportfolio" element={<Landing />} />
           <Route path="/companyportfolio/about" element={<About />} />
           <Route path="/companyportfolio/Service" element={<ServiceDetail />} />
           <Route path="/companyportfolio/contact" element={<Contact />} />
