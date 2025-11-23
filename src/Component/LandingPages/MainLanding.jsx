@@ -65,7 +65,7 @@ function MainLanding(props) {
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{ maxWidth: '900px' }}>
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Reliable Tech & Remarkable Solutions</h5>
-                                    <h3 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h3>
+                                    <h3 className="display-1 text-white mb-md-4 animated zoomIn">Turning Possibilities into Powerful Solutions</h3>
                                     <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                                     {/* <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                   <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> */}
