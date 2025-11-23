@@ -13,10 +13,10 @@ function App() {
         <Routes>
 
           {/* Public site routes */}
-          <Route path="/companyportfolio" element={<Landing />} />
-          <Route path="/companyportfolio/about" element={<About />} />
-          <Route path="/companyportfolio/Service" element={<ServiceDetail />} />
-          <Route path="/companyportfolio/contact" element={<Contact />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/Service" element={<ServiceDetail />} />
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="/checkout" element={<Checkout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}

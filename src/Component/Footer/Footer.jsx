@@ -57,9 +57,9 @@ function Footer(props) {
                                         <h3 class="text-light mb-0">Quick Links</h3>
                                     </div>
                                     <div class="link-animated d-flex flex-column justify-content-start">
-                                        <a class="text-light mb-2" onClick={() => navigate('/companyportfolio')}><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                        <a class="text-light mb-2" onClick={() => navigate('/companyportfolio/about')}><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                        <a class="text-light mb-2" onClick={() => navigate('/companyportfolio/Service')}><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                        <a class="text-light mb-2" onClick={() => navigate('/')}><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                        <a class="text-light mb-2" onClick={() => navigate('/about')}><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                        <a class="text-light mb-2" onClick={() => navigate('/Service')}><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                                         {/* <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
                                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
                                         <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a> */}
@@ -75,7 +75,7 @@ function Footer(props) {
                                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a> */}
                                         {/* <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
                                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a> */}
-                                        <a class="text-light" onClick={() => navigate('/companyportfolio/contact')}><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                        <a class="text-light" onClick={() => navigate('/contact')}><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ function Footer(props) {
                     <div class="row justify-content-end">
                         <div class="col-lg-8 col-md-6">
                             <div class="d-flex align-items-center justify-content-center" style={{ height: '75px' }}>
-                                <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Swami Tech Solutions</a>. All Rights Reserved.
+                                <p class="mb-0">&copy; <a class="text-white border-bottom">Swami Tech Solutions</a>. All Rights Reserved.
                                     Designed by <a class="text-white border-bottom" href="">Swami Tech Solutions Design Team</a>
                                 </p>
                                 <br />

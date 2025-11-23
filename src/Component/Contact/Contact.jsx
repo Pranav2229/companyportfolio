@@ -23,9 +23,9 @@ function Contact(props) {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto py-0">
-                            <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio')}>Home</a>
-                            <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio/about')}>About</a>
-                            <a class="nav-item nav-link" onClick={() => navigate('/companyportfolio/Service')}>Services</a>
+                            <a class="nav-item nav-link" onClick={() => navigate('/')}>Home</a>
+                            <a class="nav-item nav-link" onClick={() => navigate('/about')}>About</a>
+                            <a class="nav-item nav-link" onClick={() => navigate('/Service')}>Services</a>
                             {/* <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu m-0">
@@ -43,7 +43,7 @@ function Contact(props) {
                                     <a class="dropdown-item">Free Quote</a>
                                 </div>
                             </div> */}
-                            <a class="nav-item nav-link active" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
+                            <a class="nav-item nav-link active" onClick={() => navigate('/contact')}>Contact</a>
                         </div>
                         {/* <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> */}
                         {/* <a class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> */}

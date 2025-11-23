@@ -20,9 +20,9 @@ function MainLanding(props) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
-                            <a className="nav-item nav-link active" onClick={() => navigate('/companyportfolio')}>Home</a>
-                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/about')}>About</a>
-                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/Service')}>Services</a>
+                            <a className="nav-item nav-link active" onClick={() => navigate('/')}>Home</a>
+                            <a className="nav-item nav-link" onClick={() => navigate('/about')}>About</a>
+                            <a className="nav-item nav-link" onClick={() => navigate('/Service')}>Services</a>
                             {/* <div className="nav-item dropdown">erv
                                 <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                                 <div className="dropdown-menu m-0">
@@ -40,7 +40,7 @@ function MainLanding(props) {
                                     <a className="dropdown-item">Free Quote</a>
                                 </div>
                             </div> */}
-                            <a className="nav-item nav-link" onClick={() => navigate('/companyportfolio/contact')}>Contact</a>
+                            <a className="nav-item nav-link" onClick={() => navigate('/contact')}>Contact</a>
                         </div>
                         {/* <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button> */}
                     </div>
@@ -54,7 +54,7 @@ function MainLanding(props) {
                                 <div className="p-3">
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Tech You Can Trust</h5>
                                     <h3 className="display-1 text-white mb-md-4 animated zoomIn">Empowering Innovation & Delivering Excellence</h3>
-                                    <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                                    <a onClick={() => navigate('/contact')} className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                                     {/* <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                   <a href="" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> */}
                                 </div>
